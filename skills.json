@@ -1,0 +1,60 @@
+{
+  "skills": [
+    {
+      "id": 30001,
+      "name": "鼓舞",
+      "description": "放置时，使所有相邻的我方卡牌的四个方向数值都增加{num_1}。",
+      "priority": 10,
+      "skillType": "locking",
+      "trigger": "onPlay",
+      "targetType": "adjacent_allies",
+      "effectId": 1,
+      "num_1": 1,
+      "num_2": 4,
+      "num_3": 0,
+      "num_4": 0
+    },
+    {
+      "id": 30002,
+      "name": "削弱",
+      "description": "放置时，使所有相邻的敌方卡牌接触面的数值-{num_1}。",
+      "priority": 10,
+      "skillType": "adjudicating",
+      "trigger": "onPlay",
+      "targetType": "adjacent_enemies",
+      "effectId": 2,
+      "num_1": 1,
+      "num_2": 4,
+      "num_3": 0,
+      "num_4": 0
+    },
+    {
+      "id": 30003,
+      "name": "射击",
+      "description": "放置时，对所有符合条件的敌方卡牌进行一次远程攻击检定。",
+      "priority": 12,
+      "skillType": "adjudicating",
+      "trigger": "onPlay",
+      "targetType": "all_enemies_on_board",
+      "effectId": 3,
+      "num_1": 0,
+      "num_2": 0,
+      "num_3": 0,
+      "num_4": 0
+    },
+    {
+      "id": 30004,
+      "name": "吸取",
+      "description": "当此卡牌翻转敌方卡牌时，从被翻转卡牌最高数值的一边偷取{num_1}点，加到此卡牌最低数值的一边。",
+      "priority": 15,
+      "skillType": "adjudicating",
+      "trigger": "onCapture",
+      "targetType": "self",
+      "effectId": 4,
+      "num_1": 1,
+      "num_2": 0,
+      "num_3": 0,
+      "num_4": 0
+    }
+  ]
+}

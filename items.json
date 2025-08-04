@@ -1,0 +1,202 @@
+{
+  "items": [
+    {
+      "id": 10001,
+      "type": "currency",
+      "name": "金币",
+      "description": "游戏中的主要货币，可用于购买卡牌包或升级卡牌。"
+    },
+    {
+      "id": 10002,
+      "type": "currency",
+      "name": "钻石",
+      "description": "高级货币，可用于购买稀有物品或加速进程。"
+    },
+    {
+      "id": 20001,
+      "type": "card",
+      "name": "哥布林",
+      "description": "一只弱小的哥布林。",
+      "attributes": {
+        "race": "兽人",
+        "rarity": "common",
+        "skills": [30001],
+        "up": 1,
+        "down": 2,
+        "left": 10,
+        "right": 3,
+        "canAttack": 1
+      }
+    },
+    {
+      "id": 20002,
+      "type": "card",
+      "name": "石巨人",
+      "description": "一个坚固的石巨人。",
+      "attributes": {
+        "race": "魔法生物",
+        "rarity": "rare",
+        "up": 5,
+        "down": 4,
+        "left": 6,
+        "right": 3,
+        "canAttack": 1
+      }
+    },
+    {
+      "id": 20003,
+      "type": "card",
+      "name": "火龙",
+      "description": "一条强大的火龙。",
+      "attributes": {
+        "race": "龙族",
+        "rarity": "epic",
+        "skills": [30003],
+        "up": 8,
+        "down": 7,
+        "left": 6,
+        "right": 9,
+        "canAttack": 1
+      }
+    },
+    {
+      "id": 20004,
+      "type": "card",
+      "name": "精灵弓箭手",
+      "description": "敏捷的弓箭手，能从远处精确打击敌人。",
+      "attributes": {
+        "race": "精灵",
+        "rarity": "common",
+        "up": 4,
+        "down": 1,
+        "left": 2,
+        "right": 2,
+        "canAttack": 1
+      }
+    },
+    {
+      "id": 20005,
+      "type": "card",
+      "name": "矮人战士",
+      "description": "顽强的战士，拥有坚不可摧的防御。",
+      "attributes": {
+        "race": "矮人",
+        "rarity": "common",
+        "up": 2,
+        "down": 4,
+        "left": 3,
+        "right": 3,
+        "canAttack": 1
+      }
+    },
+    {
+      "id": 20006,
+      "type": "card",
+      "name": "兽人狂战士",
+      "description": "进入战斗后会变得异常凶猛。",
+      "attributes": {
+        "race": "兽人",
+        "rarity": "rare",
+        "up": 6,
+        "down": 5,
+        "left": 5,
+        "right": 6,
+        "canAttack": 1
+      }
+    },
+    {
+      "id": 20007,
+      "type": "card",
+      "name": "光明骑士",
+      "description": "神圣的骑士，守护着正义与荣耀。",
+      "attributes": {
+        "race": "人类",
+        "rarity": "epic",
+        "up": 7,
+        "down": 8,
+        "left": 7,
+        "right": 7,
+        "skills": [30001],
+        "canAttack": 1
+      }
+    },
+    {
+      "id": 20008,
+      "type": "card",
+      "name": "亡灵法师",
+      "description": "操控死亡的大师，能将倒下的敌人变为己用。",
+      "attributes": {
+        "race": "不死族",
+        "rarity": "legendary",
+        "skills": [30002, 30001],
+        "up": 9,
+        "down": 9,
+        "left": 9,
+        "right": 9,
+        "canAttack": 1
+      }
+    },
+    {
+      "id": 20009,
+      "type": "card",
+      "name": "荆棘花",
+      "description": "带有尖刺的植物，能缠绕敌人。",
+      "attributes": {
+        "race": "植物",
+        "rarity": "common",
+        "up": 2,
+        "down": 3,
+        "left": 4,
+        "right": 1,
+        "canAttack": 1
+      }
+    },
+    {
+      "id": 20010,
+      "type": "card",
+      "name": "食人花",
+      "description": "巨大的肉食性植物，能吞噬粗心大意的猎物。",
+      "attributes": {
+        "race": "植物",
+        "rarity": "rare",
+        "up": 5,
+        "down": 7,
+        "left": 6,
+        "right": 4,
+        "skills": [30003],
+        "canAttack": 1
+      }
+    },
+    {
+      "id": 20011,
+      "type": "card",
+      "name": "巨型甲虫",
+      "description": "拥有坚硬外壳的巨大甲虫。",
+      "attributes": {
+        "race": "虫族",
+        "rarity": "common",
+        "up": 3,
+        "down": 2,
+        "left": 5,
+        "right": 2,
+        "canAttack": 1
+      }
+    },
+    {
+      "id": 20012,
+      "type": "card",
+      "name": "剧毒蜘蛛",
+      "description": "它的毒液能迅速削弱敌人。",
+      "attributes": {
+        "race": "虫族",
+        "rarity": "rare",
+        "up": 6,
+        "down": 4,
+        "left": 7,
+        "right": 5,
+        "skills": [30004],
+        "canAttack": 1
+      }
+    }
+  ]
+}
